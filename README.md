@@ -26,6 +26,15 @@ The architecture of the  honeynet in Azure consists of the following components:
 - Azure Key Vault
 - Azure Storage Account
 - Microsoft Sentinel
+- Microsoft Defender
+
+  ## Tools, Technologies and Frameworks used for Security Hardening
+   - Nist SP 800-53
+   - Nist SP 800-61 
+   - Microsoft Cloud Security Benchmark
+   - Microsoft Defender for Cloud
+   - Private Endpoint (PE)
+   - Firewalls
 
 BEFORE: Initially, all resources were set up to be accessible from the internet. Virtual Machines and other resources had wide-open Network Security Groups and firewalls, allowing access from anywhere.
 
