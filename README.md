@@ -54,6 +54,34 @@ AFTER: Following the changes, Network Security Groups were configured to only al
 
 ## Metrics Before Hardening / Security Controls and After Hardening /Security Controls
 
+BEFORE SECURING ENVIRONMENT
+	
+Start Time	2024-04-27T19:22:52.4755861Z
+Stop Time	2024-04-28T19:22:52.4755861Z
+Security Events (Windows VMs)	35149
+Syslog (Linux VMs)	14651
+SecurityAlert (Microsoft Defender for Cloud)	6
+SecurityIncident (Sentinel Incidents)	223
+NSG Inbound Malicious Flows Allowed	1532
+	
+AFTER SECURING ENVIRONMENT
+	
+Start Time	5/1/2024, 5:27:22 AM
+Stop Time	5/2/2024, 5:27:22 AM
+Security Events (Windows VMs)	9128
+Syslog (Linux VMs)	2
+SecurityAlert (Microsoft Defender for Cloud)	0
+SecurityIncident (Sentinel Incidents)	1
+NSG Inbound Malicious Flows Allowed	0
+	
+RESULTS 
+Change after security environment
+Security Events (Windows VMs)	-74.03%
+Syslog (Linux VMs)	-99.99%
+SecurityAlert (Microsoft Defender for Cloud)	-100.00%
+Security Incident (Sentinel Incidents)	-99.55%
+NSG Inbound Malicious Flows Allowed	-100.00%
+
 ![image](https://github.com/prinxenadana/Cloud-SOC/assets/168138441/e3cd7978-e1f7-4149-8678-50ca47776d99)
 
 ## Attack Maps Before Hardening / Security Controls
