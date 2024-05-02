@@ -28,7 +28,7 @@ The architecture of the  honeynet in Azure consists of the following components:
 - Microsoft Sentinel
 - Microsoft Defender
 
-  ## Tools, Technologies and Frameworks used for Security Hardening
+## Tools, Technologies and Frameworks used for Security Hardening
    - Nist SP 800-53
    - Nist SP 800-61 
    - Microsoft Cloud Security Benchmark
