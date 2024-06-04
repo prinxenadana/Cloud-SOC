@@ -55,7 +55,7 @@ AFTER: Following the changes, Network Security Groups were configured to only al
 
 ![image](https://github.com/prinxenadana/Cloud-SOC/assets/168138441/e3cd7978-e1f7-4149-8678-50ca47776d99)
 
-## Attack Maps Before Hardening / Security Controls
+## Attack Maps After Hardening / Security Controls
 
 ```All map queries actually returned no results due to no instances of malicious activity  after hardening.```
 
